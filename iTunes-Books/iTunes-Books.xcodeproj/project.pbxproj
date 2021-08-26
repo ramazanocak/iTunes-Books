@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A93D126E26D8336800FCCE20 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93D126C26D8336800FCCE20 /* HomeVC.swift */; };
+		A93D126F26D8336800FCCE20 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A93D126D26D8336800FCCE20 /* HomeVC.xib */; };
+		A93D127326D833D000FCCE20 /* HomeMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93D127126D833D000FCCE20 /* HomeMainTableViewCell.swift */; };
+		A93D127426D833D000FCCE20 /* HomeMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A93D127226D833D000FCCE20 /* HomeMainTableViewCell.xib */; };
+		A93D127726D8341A00FCCE20 /* HomeMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93D127526D8341A00FCCE20 /* HomeMainCollectionViewCell.swift */; };
+		A93D127826D8341A00FCCE20 /* HomeMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A93D127626D8341A00FCCE20 /* HomeMainCollectionViewCell.xib */; };
 		A9F1EADB26D7BE67007B4C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F1EADA26D7BE67007B4C86 /* AppDelegate.swift */; };
-		A9F1EADD26D7BE67007B4C86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F1EADC26D7BE67007B4C86 /* SceneDelegate.swift */; };
 		A9F1EADF26D7BE67007B4C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F1EADE26D7BE67007B4C86 /* ViewController.swift */; };
-		A9F1EAE226D7BE67007B4C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F1EAE026D7BE67007B4C86 /* Main.storyboard */; };
 		A9F1EAE526D7BE67007B4C86 /* iTunes_Books.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9F1EAE326D7BE67007B4C86 /* iTunes_Books.xcdatamodeld */; };
 		A9F1EAE726D7BE69007B4C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F1EAE626D7BE69007B4C86 /* Assets.xcassets */; };
 		A9F1EAEA26D7BE69007B4C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F1EAE826D7BE69007B4C86 /* LaunchScreen.storyboard */; };
@@ -36,11 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A93D126C26D8336800FCCE20 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		A93D126D26D8336800FCCE20 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		A93D127126D833D000FCCE20 /* HomeMainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainTableViewCell.swift; sourceTree = "<group>"; };
+		A93D127226D833D000FCCE20 /* HomeMainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeMainTableViewCell.xib; sourceTree = "<group>"; };
+		A93D127526D8341A00FCCE20 /* HomeMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		A93D127626D8341A00FCCE20 /* HomeMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeMainCollectionViewCell.xib; sourceTree = "<group>"; };
 		A9F1EAD726D7BE67007B4C86 /* iTunes-Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes-Books.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F1EADA26D7BE67007B4C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9F1EADC26D7BE67007B4C86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A9F1EADE26D7BE67007B4C86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A9F1EAE126D7BE67007B4C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9F1EAE426D7BE67007B4C86 /* iTunes_Books.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iTunes_Books.xcdatamodel; sourceTree = "<group>"; };
 		A9F1EAE626D7BE69007B4C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9F1EAE926D7BE69007B4C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +86,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A93D126926D8332C00FCCE20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A93D126A26D8333300FCCE20 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A93D127026D833A900FCCE20 /* Cells */,
+				A93D126C26D8336800FCCE20 /* HomeVC.swift */,
+				A93D126D26D8336800FCCE20 /* HomeVC.xib */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A93D126B26D8334100FCCE20 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A93D127026D833A900FCCE20 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A93D127126D833D000FCCE20 /* HomeMainTableViewCell.swift */,
+				A93D127226D833D000FCCE20 /* HomeMainTableViewCell.xib */,
+				A93D127526D8341A00FCCE20 /* HomeMainCollectionViewCell.swift */,
+				A93D127626D8341A00FCCE20 /* HomeMainCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		A9F1EACE26D7BE67007B4C86 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +144,11 @@
 		A9F1EAD926D7BE67007B4C86 /* iTunes-Books */ = {
 			isa = PBXGroup;
 			children = (
+				A93D126B26D8334100FCCE20 /* ViewModels */,
+				A93D126A26D8333300FCCE20 /* Scenes */,
+				A93D126926D8332C00FCCE20 /* Models */,
 				A9F1EADA26D7BE67007B4C86 /* AppDelegate.swift */,
-				A9F1EADC26D7BE67007B4C86 /* SceneDelegate.swift */,
 				A9F1EADE26D7BE67007B4C86 /* ViewController.swift */,
-				A9F1EAE026D7BE67007B4C86 /* Main.storyboard */,
 				A9F1EAE626D7BE69007B4C86 /* Assets.xcassets */,
 				A9F1EAE826D7BE69007B4C86 /* LaunchScreen.storyboard */,
 				A9F1EAEB26D7BE69007B4C86 /* Info.plist */,
@@ -234,9 +278,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93D127826D8341A00FCCE20 /* HomeMainCollectionViewCell.xib in Resources */,
 				A9F1EAEA26D7BE69007B4C86 /* LaunchScreen.storyboard in Resources */,
+				A93D126F26D8336800FCCE20 /* HomeVC.xib in Resources */,
 				A9F1EAE726D7BE69007B4C86 /* Assets.xcassets in Resources */,
-				A9F1EAE226D7BE67007B4C86 /* Main.storyboard in Resources */,
+				A93D127426D833D000FCCE20 /* HomeMainTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +308,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9F1EADF26D7BE67007B4C86 /* ViewController.swift in Sources */,
+				A93D127726D8341A00FCCE20 /* HomeMainCollectionViewCell.swift in Sources */,
+				A93D126E26D8336800FCCE20 /* HomeVC.swift in Sources */,
 				A9F1EADB26D7BE67007B4C86 /* AppDelegate.swift in Sources */,
 				A9F1EAE526D7BE67007B4C86 /* iTunes_Books.xcdatamodeld in Sources */,
-				A9F1EADD26D7BE67007B4C86 /* SceneDelegate.swift in Sources */,
+				A93D127326D833D000FCCE20 /* HomeMainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +348,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A9F1EAE026D7BE67007B4C86 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9F1EAE126D7BE67007B4C86 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A9F1EAE826D7BE69007B4C86 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
