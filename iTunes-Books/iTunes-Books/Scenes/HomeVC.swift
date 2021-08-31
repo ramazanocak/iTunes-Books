@@ -14,6 +14,7 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         registerNibs()
+        RequestManager.shared.getMovieDetail(with: "tt3896198")
         
     }
     
