@@ -4,10 +4,30 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>iTunes-Books.xcscheme_^#shared#^_</key>
+		<key>iTunes-Books.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A9F1EAD626D7BE67007B4C86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9F1EAEF26D7BE69007B4C86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9F1EAFA26D7BE69007B4C86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

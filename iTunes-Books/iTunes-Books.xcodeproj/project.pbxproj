@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77D812F767DE3EB9EE1397F2 /* Pods_iTunes_Books.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C84016AB221496CC722A403 /* Pods_iTunes_Books.framework */; };
 		A93D126E26D8336800FCCE20 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93D126C26D8336800FCCE20 /* HomeVC.swift */; };
 		A93D126F26D8336800FCCE20 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A93D126D26D8336800FCCE20 /* HomeVC.xib */; };
 		A93D127326D833D000FCCE20 /* HomeMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93D127126D833D000FCCE20 /* HomeMainTableViewCell.swift */; };
@@ -20,6 +21,7 @@
 		A9F1EAEA26D7BE69007B4C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F1EAE826D7BE69007B4C86 /* LaunchScreen.storyboard */; };
 		A9F1EAF526D7BE69007B4C86 /* iTunes_BooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F1EAF426D7BE69007B4C86 /* iTunes_BooksTests.swift */; };
 		A9F1EB0026D7BE69007B4C86 /* iTunes_BooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F1EAFF26D7BE69007B4C86 /* iTunes_BooksUITests.swift */; };
+		F9FFA3AA26DEDEC300A3233A /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FFA3A926DEDEC300A3233A /* RequestManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27B20F29002D4832B0BD9761 /* Pods-iTunes-Books.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunes-Books.release.xcconfig"; path = "Target Support Files/Pods-iTunes-Books/Pods-iTunes-Books.release.xcconfig"; sourceTree = "<group>"; };
+		3C84016AB221496CC722A403 /* Pods_iTunes_Books.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunes_Books.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93D126C26D8336800FCCE20 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		A93D126D26D8336800FCCE20 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		A93D127126D833D000FCCE20 /* HomeMainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainTableViewCell.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 		A9F1EAFB26D7BE69007B4C86 /* iTunes-BooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iTunes-BooksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F1EAFF26D7BE69007B4C86 /* iTunes_BooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunes_BooksUITests.swift; sourceTree = "<group>"; };
 		A9F1EB0126D7BE69007B4C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11F39F877830AB0FA4F270A /* Pods-iTunes-Books.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunes-Books.debug.xcconfig"; path = "Target Support Files/Pods-iTunes-Books/Pods-iTunes-Books.debug.xcconfig"; sourceTree = "<group>"; };
+		F9FFA3A926DEDEC300A3233A /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D812F767DE3EB9EE1397F2 /* Pods_iTunes_Books.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +93,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CBF2A704BE274293B0F3847 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E11F39F877830AB0FA4F270A /* Pods-iTunes-Books.debug.xcconfig */,
+				27B20F29002D4832B0BD9761 /* Pods-iTunes-Books.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4C66F7BF2B19BA43F354087B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C84016AB221496CC722A403 /* Pods_iTunes_Books.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A93D126926D8332C00FCCE20 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +152,8 @@
 				A9F1EAF326D7BE69007B4C86 /* iTunes-BooksTests */,
 				A9F1EAFE26D7BE69007B4C86 /* iTunes-BooksUITests */,
 				A9F1EAD826D7BE67007B4C86 /* Products */,
+				2CBF2A704BE274293B0F3847 /* Pods */,
+				4C66F7BF2B19BA43F354087B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +170,7 @@
 		A9F1EAD926D7BE67007B4C86 /* iTunes-Books */ = {
 			isa = PBXGroup;
 			children = (
+				F9FFA3A826DEDE9A00A3233A /* Managers */,
 				A93D126B26D8334100FCCE20 /* ViewModels */,
 				A93D126A26D8333300FCCE20 /* Scenes */,
 				A93D126926D8332C00FCCE20 /* Models */,
@@ -175,6 +202,14 @@
 			path = "iTunes-BooksUITests";
 			sourceTree = "<group>";
 		};
+		F9FFA3A826DEDE9A00A3233A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F9FFA3A926DEDEC300A3233A /* RequestManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9F1EB0426D7BE69007B4C86 /* Build configuration list for PBXNativeTarget "iTunes-Books" */;
 			buildPhases = (
+				3BF4412BF70F9AEDF4430233 /* [CP] Check Pods Manifest.lock */,
 				A9F1EAD326D7BE67007B4C86 /* Sources */,
 				A9F1EAD426D7BE67007B4C86 /* Frameworks */,
 				A9F1EAD526D7BE67007B4C86 /* Resources */,
+				2F76738E0B9BC68D8CF1A257 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -302,6 +339,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F76738E0B9BC68D8CF1A257 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTunes-Books/Pods-iTunes-Books-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTunes-Books/Pods-iTunes-Books-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iTunes-Books/Pods-iTunes-Books-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BF4412BF70F9AEDF4430233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTunes-Books-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9F1EAD326D7BE67007B4C86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -311,6 +390,7 @@
 				A93D127726D8341A00FCCE20 /* HomeMainCollectionViewCell.swift in Sources */,
 				A93D126E26D8336800FCCE20 /* HomeVC.swift in Sources */,
 				A9F1EADB26D7BE67007B4C86 /* AppDelegate.swift in Sources */,
+				F9FFA3AA26DEDEC300A3233A /* RequestManager.swift in Sources */,
 				A9F1EAE526D7BE67007B4C86 /* iTunes_Books.xcdatamodeld in Sources */,
 				A93D127326D833D000FCCE20 /* HomeMainTableViewCell.swift in Sources */,
 			);
@@ -477,11 +557,14 @@
 		};
 		A9F1EB0526D7BE69007B4C86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11F39F877830AB0FA4F270A /* Pods-iTunes-Books.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZQX7NA5C6;
 				INFOPLIST_FILE = "iTunes-Books/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,11 +578,14 @@
 		};
 		A9F1EB0626D7BE69007B4C86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27B20F29002D4832B0BD9761 /* Pods-iTunes-Books.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZQX7NA5C6;
 				INFOPLIST_FILE = "iTunes-Books/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
